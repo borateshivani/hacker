@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; 
+        margin: 0; 
+    }
+
+    .ok {
+        min-width: 100vh; 
+        margin-top: 10%; 
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        padding: 20px; 
+    }
+
+    .in{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    button {
+    	margin:1rem;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: powderblue;
+        color: black;
+        width: 5rem;
+        height:2REM;
+        margin-left: 4rem;
+    }
+    input{
+    	margin: 0.4rem;
+    	padding: 0.5rem;
+    }
+    
+</style>
+</head>
+<body>
+<div class="ok">
+<div class="in">
+	<form action="register" method="post">
+		<input placeholder="Enter your username" name="uname" type="text"><br>
+		<input placeholder="Enter your password"  name="pass" type="password"><br>
+		<input placeholder="Enter your DOB"  name="dob" type="date"><br>
+		<button type="submit">Register</button><br>
+		<h4>Already have an account?<a href="login.html">Login</a></h4>
+	</form>
+</div>
+</div>
+</body>
+</html>
